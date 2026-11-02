@@ -1,0 +1,7 @@
+experiment,quantity,reported_value,basis,caveat
+2,home wrist z,0.447 m,full URDF FK versus simulated TF,approximate; not physical accuracy
+2,arm_link5 apparent difference,0.41 mm,rounded Python FK and ROS TF outputs,pose label inconsistent elsewhere in report
+3,planar apparent differences,1.7–2.1 mm,planar model versus simulation TF,rounded outputs; fixed offsets omitted
+4,IK comparison,<0.0001 rad,analytical solution versus MoveIt KDL,one tested valid target
+5,hover height,0.080 m,simulated sequence,physical trial pending
+5,grasp height,0.035 m,simulated sequence,physical trial pending
